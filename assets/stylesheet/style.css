@@ -1,0 +1,269 @@
+/*establishing color styles*/
+:root {
+    --darkcolor:rgb(73, 74, 77);
+    --lightcolor:rgb(235, 238, 242);
+    --highlightcolor:rgb(135, 179, 250);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*header styling*/
+header {
+    background-image: url(../images/backQuay.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    color: var(--darkcolor);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+
+header div {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-color: rgba(235, 238, 242, .8);
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0 30px;
+    color: var(--darkcolor);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: var(--highlightcolor);
+}
+
+/*hero styles and positioning*/
+.hero {
+    background-image: url(../images/backQuay.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero div {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    height: auto;
+    width: 60%;
+    padding: 10px;
+    background-color: rgba(235, 238, 242, .8);
+    border-radius: 3px;
+    color: var(--darkcolor);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+
+/*article styling*/
+article {
+    position: relative;
+    background-color: var(--lightcolor);
+    align-content: center;
+    color: var(--darkcolor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article h2 {
+    color: var(--darkcolor);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 20px 20px 20px;
+}
+
+article img {
+    width: 100%;
+}
+
+article li {
+    position: relative;
+}
+
+article div {
+    position: absolute;
+    left: 60%;
+    top: 130px;
+    height: auto;
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(235, 238, 242, .5);
+    border-radius: 3px;
+    color: var(--darkcolor);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+
+/*contact form styling*/
+.contactform {
+    position: relative;
+    background-color: var(--lightcolor);
+    text-align: left;
+    color: var(--darkcolor);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 30px;
+}
+
+.contactform input, textarea, button {
+    width: 50%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--darkcolor);
+    color: var(--lightcolor);
+    padding: 30px;
+    border-radius: 3px;
+}
+
+contactform button {
+    border: none;
+    background: var(--darkcolor);
+    color: var(--lightcolor);
+}
+
+contacctform button:hover {
+    color: var(--highlightcolor);
+}
+
+.contact p {
+    position: absolute;
+    left: 30%;
+    top: 50px;
+    padding: 20px;
+}
+
+
+/*footer styling*/
+footer {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-color: var(--darkcolor);
+    color: var(--lightcolor);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: right;
+}
+
+footer img {
+    height: 12px;
+    width: 12px;
+}
+
+/*media queries*/
+@media screen and (max-width: 980px) {
+    header {
+        font-size: 20px;
+    }
+
+    header div {
+        padding: 5px;
+    }
+
+    article div {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    footer img {
+        height: 8px;
+        width: 8px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+        header {
+            font-size: 25px;
+        }
+    
+        header nav ul {
+            flex-direction: column;
+            align-items: baseline;
+        }
+
+        .hero div {
+            top: 30%;
+            font-size: 12px;
+        }
+
+        article div {
+            font-size: 10px;
+        }
+    
+        footer {
+            font-size: 8px;
+        }
+    
+        footer img {
+            height: 7px;
+            width: 7px;
+        }
+}
+
+@media screen and (max-width: 480px) {
+        header {
+            font-size: 25px;
+        }
+
+        .contactform input, textarea, button {
+            width: 80%;
+        }
+}
+
+@media screen and (max-width: 340px) {
+    header {
+        font-size: 20px;
+    }
+
+    .hero div {
+        font-size: 10px;
+    }
+
+    article div {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    header {
+        font-size: 11px;
+    }
+
+    .hero div {
+        top: 20%;
+        font-size: 8px;
+    }
+
+}
