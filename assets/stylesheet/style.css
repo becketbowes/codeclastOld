@@ -2,7 +2,7 @@
 :root {
     --darkcolor:rgb(73, 74, 77);
     --lightcolor:rgb(235, 238, 242);
-    --highlightcolor:rgb(135, 179, 250);
+    --highlightcolor:rgb(6, 155, 1);
 
 }
 
@@ -14,7 +14,7 @@
 
 /*header styling*/
 header {
-    background-image: url(../images/backQuay.jpg);
+    background-image: url(../images/codeclastbg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -59,7 +59,7 @@ header nav ul li a:hover {
 
 /*hero styles and positioning*/
 .hero {
-    background-image: url(../images/backQuay.jpg);
+    background-image: url(../images/codeclastbg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
