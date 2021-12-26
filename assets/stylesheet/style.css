@@ -3,6 +3,7 @@
     --darkcolor:rgb(73, 74, 77);
     --lightcolor:rgb(235, 238, 242);
     --highlightcolor:rgb(6, 155, 1);
+    --shadowcolor:rgba(3, 83, 2, 0.1);
 
 }
 
@@ -23,7 +24,7 @@ header {
     position: sticky;
     position: -webkit-sticky;
     color: var(--darkcolor);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
     font-size: 25px;
     padding: 30px;
 }
@@ -37,6 +38,7 @@ header div {
     border-radius: 3px;
     text-decoration: none;
     text-align: center;
+    box-shadow: 0px 2px 3px var(--darkcolor);
 }
 
 header nav ul {
@@ -79,9 +81,10 @@ header nav ul li a:hover {
     background-color: rgba(235, 238, 242, .8);
     border-radius: 3px;
     color: var(--darkcolor);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
     text-decoration: none;
     text-align: left;
+    box-shadow: 0px 2px 3px var(--darkcolor);
 }
 
 /*article styling*/
@@ -90,12 +93,13 @@ article {
     background-color: var(--lightcolor);
     align-content: center;
     color: var(--darkcolor);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
+    font-size: small;
 }
 
 article h2 {
     color: var(--darkcolor);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
     padding: 100px 20px 20px 20px;
 }
 
@@ -117,9 +121,10 @@ article div {
     background-color: rgba(235, 238, 242, .5);
     border-radius: 3px;
     color: var(--darkcolor);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
     text-decoration: none;
     text-align: left;
+    box-shadow: 0px 2px 3px var(--darkcolor);
 }
 
 /*contact form styling*/
@@ -128,7 +133,7 @@ article div {
     background-color: var(--lightcolor);
     text-align: left;
     color: var(--darkcolor);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
     font-size: 15px;
     padding: 30px;
 }
@@ -136,7 +141,7 @@ article div {
 .contactform input, textarea, button {
     width: 50%;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
     background: var(--darkcolor);
     color: var(--lightcolor);
     padding: 30px;
@@ -169,7 +174,8 @@ footer {
     background-size: cover;
     background-color: var(--darkcolor);
     color: var(--lightcolor);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Menlo, 'Courier New', Courier, monospace;
+    font-size: smaller;
     text-decoration: none;
     text-align: right;
 }
