@@ -38,7 +38,7 @@ header div {
     border-radius: 3px;
     text-decoration: none;
     text-align: center;
-    box-shadow: 0px 2px 3px var(--darkcolor);
+    box-shadow: 0px 0px 3px var(--darkcolor);
 }
 
 header nav ul {
@@ -84,7 +84,7 @@ header nav ul li a:hover {
     font-family: Menlo, 'Courier New', Courier, monospace;
     text-decoration: none;
     text-align: left;
-    box-shadow: 0px 2px 3px var(--darkcolor);
+    box-shadow: 0px 0px 3px var(--darkcolor);
 }
 
 /*article styling*/
@@ -124,7 +124,7 @@ article div {
     font-family: Menlo, 'Courier New', Courier, monospace;
     text-decoration: none;
     text-align: left;
-    box-shadow: 0px 2px 3px var(--darkcolor);
+    box-shadow: 0px 0px 3px var(--darkcolor);
 }
 
 /*contact form styling*/
