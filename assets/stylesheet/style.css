@@ -87,14 +87,29 @@ header nav ul li a:hover {
     box-shadow: 0px 0px 3px var(--darkcolor);
 }
 
+main box wrapping articles*/
+/* main {
+    background-color: var(--lightcolor);
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
 /*article styling*/
 article {
-    position: relative;
     background-color: var(--lightcolor);
     align-content: center;
     color: var(--darkcolor);
     font-family: Menlo, 'Courier New', Courier, monospace;
     font-size: small;
+}
+
+article ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    list-style-type: none;
 }
 
 article h2 {
@@ -109,14 +124,22 @@ article img {
 
 article li {
     position: relative;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
 }
 
-article div {
+article #biggie {
+    position: relative; 
+    width: 100%;
+}
+
+article li #text {
     position: absolute;
-    left: 60%;
-    top: 130px;
+    left: 70%;
+    top: 30px;
     height: auto;
-    width: 30%;
+    width: 20%;
     padding: 10px;
     background-color: rgba(235, 238, 242, .5);
     border-radius: 3px;
@@ -195,8 +218,15 @@ footer img {
         padding: 5px;
     }
 
-    article div {
+    article #text {
         font-size: 12px;
+    }
+
+    article li {
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        margin: auto;
     }
 
     footer {
@@ -224,7 +254,7 @@ footer img {
             font-size: 12px;
         }
 
-        article div {
+        article #text {
             font-size: 10px;
         }
     
