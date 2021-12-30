@@ -208,6 +208,11 @@ footer img {
     width: 12px;
 }
 
+/*placeholder pages*/
+#placeholders {
+    width: 100%;
+}
+
 /*media queries*/
 @media screen and (max-width: 980px) {
     header {
