@@ -15,7 +15,7 @@
 
 /*header styling*/
 header {
-    background-image: url(../images/codeclastbg.jpg);
+    background-image: url(../images/codeclastbgD.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -61,7 +61,7 @@ header nav ul li a:hover {
 
 /*hero styles and positioning*/
 .hero {
-    background-image: url(../images/codeclastbg.jpg);
+    background-image: url(../images/codeclastbgD.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -246,7 +246,7 @@ footer img {
 
 @media screen and (max-width: 780px) {
     header {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     header nav ul {
