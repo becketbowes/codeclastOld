@@ -25,7 +25,7 @@ header {
     position: -webkit-sticky;
     color: var(--darkcolor);
     font-family: Menlo, 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 20px;
     padding: 30px;
 }
 
@@ -41,6 +41,7 @@ header div {
     box-shadow: 0px 0px 3px var(--darkcolor);
 }
 
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +49,7 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
+
 
 header nav ul li a {
     padding: 0 30px;
@@ -120,6 +122,7 @@ article h2 {
 
 article img {
     width: 100%;
+    opacity: 0.3;
 }
 
 article li {
@@ -129,7 +132,7 @@ article li {
     margin: auto;
 }
 
-article #biggie {
+article .biggie {
     position: relative; 
     width: 100%;
 }
@@ -188,6 +191,9 @@ contacctform button:hover {
     padding: 20px;
 }
 
+main article ul li a img:hover {
+    opacity: 1;
+}
 
 /*footer styling*/
 footer {
@@ -213,8 +219,10 @@ footer img {
     width: 100%;
 }
 
+
+
 /*media queries*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1356px) {
     header {
         font-size: 20px;
     }
