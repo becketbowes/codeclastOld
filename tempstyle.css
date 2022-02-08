@@ -1,0 +1,50 @@
+* {
+    background-color: rgb(0, 44, 13);
+    color: rgb(193, 255, 211);
+    font-family: monospace;
+}
+
+.usertext {
+    text-align: right;
+}
+
+.metext {
+    text-align: left;
+}
+
+header {
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    border-top: 0.5px solid rgb(193, 255, 211);
+}
+
+header div {
+    max-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+textarea {
+    background-color: rgb(193, 255, 211);
+    color: rgb(0, 44, 13);
+    width: 50%;
+    height: 96px;
+    resize: none;
+    border: none;
+    border-right: 0.5px solid rgb(0, 44, 13);
+}
+
+button {
+    background-color: rgb(193, 255, 211);
+    color: rgb(0, 44, 13);
+    font-weight: bold;
+    height: 100px;
+    width: 20%;
+    border: none;
+}
+
+
+
+
