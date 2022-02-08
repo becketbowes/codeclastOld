@@ -4,11 +4,15 @@
     font-family: monospace;
 }
 
+.texthead {
+    font-weight: bold;
+}
+
 .usertext {
     text-align: right;
 }
 
-.metext {
+.beckettext {
     text-align: left;
 }
 
