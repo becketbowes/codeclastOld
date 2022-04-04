@@ -147,6 +147,7 @@ article li #text {
     background-color: rgba(235, 238, 242, .5);
     border-radius: 3px;
     color: var(--darkcolor);
+    font-size: small;
     font-family: Menlo, 'Courier New', Courier, monospace;
     text-decoration: none;
     text-align: left;
